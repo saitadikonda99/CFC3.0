@@ -1,9 +1,16 @@
 export default function Home() {
   return (
-      <div className="HomeComponent">
-        <div className="HomeComponent-in">
-            <h1>CFC 3.0</h1>
-        </div>
+    <div className="HomeComponent">
+      <div className="HomeComponent-in">
+        <iframe 
+            src="https://publuu.com/flip-book/667985/1487988"
+            width="100%" 
+            height="800" 
+            allowFullScreen 
+            allow="clipboard-write" 
+            className="publuuflip"
+          ></iframe>
       </div>
+    </div>
   );
 }
